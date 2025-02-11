@@ -4,13 +4,6 @@
 
 This repository is developed as an experimental project to **learn and practice using `git bisect`**. The goal is to intentionally introduce a bug and use `git bisect` to track it down.
 
-## Project Structure
-
-- **math/** - Contains math functions (Add, Subtract, Multiply, etc.)
-- **http/** - Implements an HTTP handler to expose math functions as a service
-- **tests/** - Unit tests for math operations
-- **docs/** - Documentation of lessons learned about debugging
-
 ## Development Roadmap
 
 1. **Initial commit:** Add an incomplete math package and a failing unit test.
