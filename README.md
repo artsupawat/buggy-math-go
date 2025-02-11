@@ -1,4 +1,4 @@
-# Math SaaS - Learning Git Bisect
+# Buggy Math SaaS - Learning Git Bisect
 
 ## About This Repository
 
