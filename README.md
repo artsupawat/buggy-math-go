@@ -58,6 +58,20 @@ This repository is developed as an experimental project to **learn and practice 
 - **Lesson 6:** Reset bisect mode after finding the faulty commit.
 - **Lesson 7:** Get the commit hash of the faulty commit and analyze the changes using `git show`.
 
+## How to use this repository
+- Clone the repository:
+  ```sh
+  git clone <repository-url>
+  ```
+- Navigate to the project directory:
+  ```sh
+   cd buggy-math-go
+   ```
+- Start bisect mode:
+  ```sh
+  git bisect start
+  ```
+- Enjoy debugging!
 
 ## References
 - [Git Bisect Documentation](https://git-scm.com/docs/git-bisect)
