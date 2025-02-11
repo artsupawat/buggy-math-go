@@ -16,3 +16,14 @@ func TestAdd(t *testing.T) {
 		t.Errorf("got %d, want %d", got, want)
 	}
 }
+
+func TestSubtract(t *testing.T) {
+	// Arrange & Act
+	got := math.Subtract(5, 3)
+
+	// Assert
+	want := 2
+	if got != want {
+		t.Errorf("got %d, want %d", got, want)
+	}
+}
